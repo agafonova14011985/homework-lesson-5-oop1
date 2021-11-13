@@ -57,7 +57,7 @@ public class HomeWorkOop {
         workers[4] = new Worker("Lenin Ivan Petrovich", "engineer", "qqqqq@qqq.ru", 1, 0, 42);
 
         for (int i = 0; i < 5; i++) {
-            if (workers[i].age > 40){ workers[i].inform();}
+            if (workers[i].getAge() > 40){ workers[i].inform();}
 
             //System.out.println(workers[i].age  +" " + workers[i].fulName );
         }
